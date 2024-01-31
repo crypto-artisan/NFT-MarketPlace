@@ -4,7 +4,7 @@ require("@openzeppelin/test-helpers/configure")({
     abstraction: "truffle",
   },
 });
-
+// import test-helpers from openzeppelin
 const { balance, ether, expectRevert, expectEvent } = require('@openzeppelin/test-helpers');
 const Marketplace = artifacts.require("Marketplace");
 const BoredPetsNFT = artifacts.require("BoredPetsNFT");
